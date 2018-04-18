@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- popwidnow image 显示消失 动画-->
+    <style name="popwindow_image_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popup_window_image_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_window_image_out</item>
+    </style>
+</resources>

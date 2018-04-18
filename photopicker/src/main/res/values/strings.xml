@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PhotoPicker</string>
+
+    <string name="photo_picker_title">Photos</string>
+    <string name="photo_picker_dir_all">all</string>
+    <string name="photo_picker_over_max_count_tips">You can choose at most %1$d photos</string>
+    <string name="photo_picker_done">(%1$d/%2$d)done</string>
+    <string name="photo_picker_dir_child_num">%1$d photos</string>
+</resources>

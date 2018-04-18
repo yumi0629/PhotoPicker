@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yumi.photopicker.widget.SquareItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:padding="1dip"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/photo_picker_checkbox_bg" />
+
+</com.yumi.photopicker.widget.SquareItemLayout>
